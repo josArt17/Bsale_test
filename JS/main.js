@@ -5,7 +5,7 @@ let cajaProductos = document.getElementsByClassName('box-productos');
 
    
 let peticion = new XMLHttpRequest();
-peticion.open('GET', 'back/conect.php');
+peticion.open('GET', 'https://back-bsale-josart.herokuapp.com/');
 
 /* CREAMOS LA PETICION POR MEDIO DE GET, AL ARCHIVO DONDE TENEMOS LA CONEXION A LA BD */
 
